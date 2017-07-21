@@ -2,6 +2,9 @@
 @section('content')
 <h1>About</h1>
 <p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Eu eam affert minimum quaestio, has ex soleat omnesque. Postea rationibus ei vim. Commodo urbanitas scriptorem per ei, cum ut idque euismod argumentum, has tation possit id. Nec option delenit expetendis ad, diceret delectus eu mea. Et prompta sapientem per, vis in facer ubique graeci. Te eum posse tempor, ea sit decore tacimates. His at mutat officiis constituto, ne zril exerci per.
+</p>
+<p>
+Vis id facilis mandamus, te sea vero movet graeco, ei usu ridens interesset. Cu has iusto latine conclusionemque, reque aeque fabellas usu at. An lucilius tincidunt pro, dolore scribentur mediocritatem id usu. Discere bonorum menandri ius ut, eum ex idque eleifend iudicabit. Ea praesent moderatius eos, quando utinam eum ne.
 </p>
 @endsection
