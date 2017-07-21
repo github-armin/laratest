@@ -9,6 +9,11 @@
   @include('partials.nav')
   <div class="container" style="margin-top: 50px;">
     <div class="row">
+      @if(Request::is('/'))
+        <div class="col-xs-12" style="margin-top: 25px;">
+          @include('partials.showcase')
+        </div>
+      @endif
       <div class="col-lg-9 col-md-8">
         @yield('content')
       </div>
