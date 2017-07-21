@@ -20,6 +20,10 @@
       <div class="col-lg-3 col-md-4">
         @include('partials.sidebar')
       </div>
+      <footer>
+        @include('partials.footer')
+      </footer>
+    </div>
   </div>
 
 
