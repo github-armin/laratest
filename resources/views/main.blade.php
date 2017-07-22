@@ -15,6 +15,7 @@
         </div>
       @endif
       <div class="col-lg-9 col-md-8">
+        @include('partials.notifications')
         @yield('content')
       </div>
       <div class="col-lg-3 col-md-4">
