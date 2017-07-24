@@ -9,8 +9,16 @@ class MessagesController extends Controller
     public function submit(Request $request) {
       $this->validate($request, [
         'name' => 'required',
-        'email' => 'required'
+        'email' => 'required',
+        'message' => 'required'
       ]);
-      return $request->input('name');
+
+      $message = new Message;
+      $message->name = $request->input('name');
+      $message->email = $request->input('email');
+      $message->message = $request->input('message');
+      $message->save();
+
+      return redirect('contact')->with('success', 'Your message was sent!');
     }
 }
