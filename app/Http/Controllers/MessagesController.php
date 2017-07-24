@@ -24,7 +24,9 @@ class MessagesController extends Controller
     }
 
     public function getMessages() {
-      $messages = Message::all();
+      $messages = Message::where('active', 1)
+                            ->orderBy('created_at', 'desc')
+                            ->get();
 
       return view('layouts.messages')->with('messages', $messages);
     }
