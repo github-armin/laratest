@@ -14,10 +14,14 @@
 Route::get('/', function () {
     return view('layouts.home');
 });
+
 Route::get('/about', function () {
     return view('layouts.about');
 });
+
 Route::get('/contact', function () {
     return view('layouts.contact');
 });
 Route::post('/contact', 'MessagesController@submit');
+
+Route::get('/messages', 'MessagesController@getMessages');
