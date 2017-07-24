@@ -22,4 +22,10 @@ class MessagesController extends Controller
 
       return redirect('contact')->with('success', 'Your message was sent!');
     }
+
+    public function getMessages() {
+      $messages = Message::all();
+
+      return view('layouts.messages')->with('messages', $messages);
+    }
 }
